@@ -1,0 +1,43 @@
+{
+  "properties": [
+    {
+      "name": "pbm.mail.hostname",
+      "type": "java.lang.String",
+      "description": "Description for pbm.mail.hostname."
+    },
+    {
+      "name": "pbm.mail.username",
+      "type": "java.lang.String",
+      "description": "Description for pbm.mail.username."
+    },
+    {
+      "name": "pbm.mail.password",
+      "type": "java.lang.String",
+      "description": "Description for pbm.mail.password."
+    },
+    {
+      "name": "pbm.rabbitmq.exchangename",
+      "type": "java.lang.String",
+      "description": "Description for pbm.rabbitmq.exchangename."
+    },
+    {
+      "name": "pbm.rabbitmq.queuename",
+      "type": "java.lang.String",
+      "description": "Description for pbm.rabbitmq.queuename."
+    },
+    {
+      "name": "pbm.rabbitmq.routingkey",
+      "type": "java.lang.String",
+      "description": "Description for pbm.rabbitmq.routingkey."
+    },
+    {
+      "name": "splunk.token",
+      "type": "java.lang.String",
+      "description": "Description for splunk.token."
+    },
+    {
+      "name": "splunk.url",
+      "type": "java.lang.String",
+      "description": "Description for splunk.url."
+    }
+  ] }

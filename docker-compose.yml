@@ -1,0 +1,32 @@
+version: '3'
+services:
+
+  pbm:
+    image: ec2-13-58-154-84.us-east-2.compute.amazonaws.com:5000/pbm:${release-version}
+    container_name: pbm
+    depends_on:
+      - rabbitmq
+    environment:
+      - RABBITMQ_HOST_URL=rabbitmq
+    command: ["./wait-for-it.sh", "rabbitmq:5672"]
+    networks:
+      - pbmnet
+    environment:
+     - SPRING_ACTIVE_PROFILE=release
+    volumes:
+      - ./target/classes/application.properties:/pbm/application.properties:ro
+
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: rabbitmq
+    ports:
+      - 5672:5672
+      - 15672:15672
+    networks:
+      - pbmnet
+    volumes:
+      - ./rabbitmq.config:/etc/rabbitmq/rabbitmq.config:ro
+
+networks:
+  pbmnet:
+    driver: bridge

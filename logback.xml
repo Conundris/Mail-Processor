@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <springProperty scope="context" name="token" source="splunk.token"/>
+  <springProperty scope="context" name="url" source="splunk.url"/>
+  <include resource="org/springframework/boot/logging/logback/base.xml"/>
+  <Appender name="pbmAppender" class="com.splunk.logging.HttpEventCollectorLogbackAppender">
+    <url>${url}</url>
+    <token>${token}</token>
+    <disableCertificateValidation>true</disableCertificateValidation>
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <pattern>\n%d{yyyy-MM-dd HH:mm:ss} \n%-5level \n%logger{36} \n-> %msg%n</pattern>
+    </layout>
+  </Appender>
+
+  <!--<logger name="pbmClassLogger">-->
+    <!--<appender-ref ref="pbmAppender" />-->
+  <!--</logger>-->
+  <root>
+    <appender-ref ref="pbmAppender"/>
+  </root>
+</configuration>

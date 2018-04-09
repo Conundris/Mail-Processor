@@ -1,0 +1,17 @@
+${AnsiStyle.BOLD}
+PPPPPPPPPPPPPPPPP   BBBBBBBBBBBBBBBBB   MMMMMMMM               MMMMMMMM
+P::::::::::::::::P  B::::::::::::::::B  M:::::::M             M:::::::M
+P::::::PPPPPP:::::P B::::::BBBBBB:::::B M::::::::M           M::::::::M
+PP:::::P     P:::::PBB:::::B     B:::::BM:::::::::M         M:::::::::M
+  P::::P     P:::::P  B::::B     B:::::BM::::::::::M       M::::::::::M
+  P::::P     P:::::P  B::::B     B:::::BM:::::::::::M     M:::::::::::M
+  P::::PPPPPP:::::P   B::::BBBBBB:::::B M:::::::M::::M   M::::M:::::::M
+  P:::::::::::::PP    B:::::::::::::BB  M::::::M M::::M M::::M M::::::M
+  P::::PPPPPPPPP      B::::BBBBBB:::::B M::::::M  M::::M::::M  M::::::M
+  P::::P              B::::B     B:::::BM::::::M   M:::::::M   M::::::M
+  P::::P              B::::B     B:::::BM::::::M    M:::::M    M::::::M
+  P::::P              B::::B     B:::::BM::::::M     MMMMM     M::::::M
+PP::::::PP          BB:::::BBBBBB::::::BM::::::M               M::::::M
+P::::::::P          B:::::::::::::::::B M::::::M               M::::::M
+P::::::::P          B::::::::::::::::B  M::::::M               M::::::M
+PPPPPPPPPP          BBBBBBBBBBBBBBBBB   MMMMMMMM               MMMMMMMM

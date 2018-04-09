@@ -1,0 +1,34 @@
+# User-specific stuff:
+.idea/**
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+
+# Sensitive or high-churn files:
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# IntelliJ
+out/
+
+# All Class Files
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Target Folder
+target
+
+## File-based project format:
+*.iws
+
+# IML Files
+*.iml
